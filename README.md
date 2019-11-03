@@ -1,4 +1,4 @@
-# Oscilador-Morse
+# Oscilador-Morse.
 Oscilador para practica de CW realizado en Arduino
 El objetivo es generar una señal de 700hz para realizar practicas de CW con un manipulador tradicional.
 
@@ -13,6 +13,7 @@ Sin entrar en demasiado detalles, cualquier mcu puede funcionar mientas se compi
 El manipulador morse se conecta entre los pines 12 y GND.
 Para conectar el buzzer se utilizará un capacitor electrolítico de 10uF en serie con el buzzer entre los pines 11 y GND de la siguiente manera.
 
+Pin 12 >---------------- KEY CW -------------------→ GND
 Pin 11 >------------| ]-------------(buzzer)-------→ GND
 
 
